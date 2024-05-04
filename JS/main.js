@@ -13,7 +13,7 @@ var imagePath = 'http://sstatic.net/so/img/';
  
 
 BotonMonet.addEventListener ("mouseover", event => {
-   MenuArtistas.style.backgroundImage = 'Fotos/Sol-naciente.jpg';
+   MenuArtistas.style.backgroundImage = "url('Fotos/Sol-naciente.jpg')";
     MenuArtistas.style.backgroundAttachment = "fixed";
     MenuArtistas.style.backgroundSize = "cover";
     MenuArtistas.style.backgroundRepeat = "no-repeat";
