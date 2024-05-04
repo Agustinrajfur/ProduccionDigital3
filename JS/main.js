@@ -7,12 +7,13 @@ const BotonDegas = document.getElementById ("BotonDegas")
 const BotonRenoire = document.getElementById ("BotonRenoire")
 const Artistas = document.getElementById ("Artistas")
 const MenuArtistas = document.getElementById ("MenuArtistas")
-
+const backgroundImageUrl = '../Fotos/Sol-naciente.jpg';
+var imagePath = 'http://sstatic.net/so/img/';
 
  
 
 BotonMonet.addEventListener ("mouseover", event => {
-    MenuArtistas.style.backgroundImage = "url('../Fotos/Sol-naciente.jpg')";
+   MenuArtistas.style.backgroundImage = 'Fotos/Sol-naciente.jpg';
     MenuArtistas.style.backgroundAttachment = "fixed";
     MenuArtistas.style.backgroundSize = "cover";
     MenuArtistas.style.backgroundRepeat = "no-repeat";
@@ -21,7 +22,7 @@ BotonMonet.addEventListener ("mouseover", event => {
 } )
 
 BotonMonet.addEventListener ("mouseover", event => {
-    Artistas.style.backgroundImage = "url('../Fotos/Retratomonet.png')";
+    Artistas.style.backgroundImage = "url('Fotos/Retratomonet.png')";
     Artistas.style.backgroundAttachment = "fixed";
     Artistas.style.backgroundSize = "24%";
     Artistas.style.backgroundRepeat = "no-repeat";
@@ -29,7 +30,7 @@ BotonMonet.addEventListener ("mouseover", event => {
 } )
 
 BotonManet.addEventListener ("mouseover", event => {
-    MenuArtistas.style.backgroundImage = "url('../Fotos/Almuerzo.jpg')";
+    MenuArtistas.style.backgroundImage = "url('Fotos/Almuerzo.jpg')";
     MenuArtistas.style.backgroundAttachment = "fixed";
     MenuArtistas.style.backgroundSize = "cover";
     MenuArtistas.style.backgroundRepeat = "no-repeat";
@@ -38,14 +39,14 @@ BotonManet.addEventListener ("mouseover", event => {
 } )
 
 BotonManet.addEventListener ("mouseover", event => {
-    Artistas.style.backgroundImage = "url('../Fotos/Retratomanet.jpg')";
+    Artistas.style.backgroundImage = "url('Fotos/Retratomanet.jpg')";
     Artistas.style.backgroundAttachment = "fixed";
     Artistas.style.backgroundSize = "contain";
     Artistas.style.backgroundSize = "33%";
 } )
 
 BotonVincent.addEventListener ("mouseover", event => {
-    MenuArtistas.style.backgroundImage = "url('../Fotos/Starry_Night_Over_the_Rhone.jpg')";
+    MenuArtistas.style.backgroundImage = "url('Fotos/Starry_Night_Over_the_Rhone.jpg')";
     MenuArtistas.style.backgroundAttachment = "fixed";
     MenuArtistas.style.backgroundSize = "cover";
     MenuArtistas.style.backgroundRepeat = "no-repeat";
@@ -54,13 +55,13 @@ BotonVincent.addEventListener ("mouseover", event => {
 } )
 
 BotonVincent.addEventListener ("mouseover", event => {
-    Artistas.style.backgroundImage = "url('../Fotos/RetratoVincent.jpg')";
+    Artistas.style.backgroundImage = "url('Fotos/RetratoVincent.jpg')";
     Artistas.style.backgroundAttachment = "fixed";
     Artistas.style.backgroundSize = "contain";
 } )
 
 BotonDegas.addEventListener ("mouseover", event => {
-    MenuArtistas.style.backgroundImage = "url('../Fotos/clase.jpg')";
+    MenuArtistas.style.backgroundImage = "url('Fotos/clase.jpg')";
     MenuArtistas.style.backgroundAttachment = "fixed";
     MenuArtistas.style.backgroundSize = "cover";
     MenuArtistas.style.backgroundRepeat = "no-repeat";
@@ -69,7 +70,7 @@ BotonDegas.addEventListener ("mouseover", event => {
 } )
 
 BotonDegas.addEventListener ("mouseover", event => {
-    Artistas.style.backgroundImage = "url('../Fotos/Retratodegas.jpg')";
+    Artistas.style.backgroundImage = "url('Fotos/Retratodegas.jpg')";
     Artistas.style.backgroundAttachment = "fixed";
     Artistas.style.backgroundSize = "contain";
     Artistas.style.backgroundSize = "26%";
@@ -78,7 +79,7 @@ BotonDegas.addEventListener ("mouseover", event => {
 } )
 
 BotonRenoire.addEventListener ("mouseover", event => {
-    MenuArtistas.style.backgroundImage = "url('../Fotos/Luncheon.jpg')";
+    MenuArtistas.style.backgroundImage = "url('Fotos/Luncheon.jpg')";
     MenuArtistas.style.backgroundAttachment = "fixed";
     MenuArtistas.style.backgroundSize = "cover";
     MenuArtistas.style.backgroundRepeat = "no-repeat";
@@ -87,7 +88,7 @@ BotonRenoire.addEventListener ("mouseover", event => {
 } )
 
 BotonRenoire.addEventListener ("mouseover", event => {
-    Artistas.style.backgroundImage = "url('../Fotos/RetratoRenoire.jpg')";
+    Artistas.style.backgroundImage = "url('Fotos/RetratoRenoire.jpg')";
     Artistas.style.backgroundAttachment = "fixed";
     Artistas.style.backgroundSize = "contain";
 } )
