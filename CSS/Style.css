@@ -463,6 +463,14 @@ margin-top: 2rem;
   text-align: left;
   font-weight: light;
 }
+
+.HeroMonet {
+  background-image: url("../Fotos/Puente.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5rem;
+}
 .CallToActionFotoYBoton {
   background-image: url("../Fotos/Puente.jpg");
   padding-top: 90px;
@@ -472,6 +480,14 @@ margin-top: 2rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.HeroManet {
+  background-image: url("../Fotos/Mallarme.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5rem;
 }
 
 .CallToActionFotoYBotonManet {
@@ -485,6 +501,15 @@ margin-top: 2rem;
   background-size: cover;
 }
 
+.HeroVincent {
+  background-image: url("../Fotos/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5rem;
+}
+
+
 .CallToActionFotoYBotonVincent {
   background-image: url("../Fotos/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg");
   padding-top: 90px;
@@ -496,6 +521,15 @@ margin-top: 2rem;
   background-size: cover;
 }
 
+.HeroDegas {
+  background-image: url("../Fotos/Ballet.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5rem;
+}
+
+
 .CallToActionFotoYBotonDegas {
   background-image: url("../Fotos/Ballet.jpg");
   padding-top: 90px;
@@ -505,6 +539,14 @@ margin-top: 2rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.HeroRenoire {
+  background-image: url("../Fotos/Bal\ du\ moulin.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5rem;
 }
 
 .CallToActionFotoYBotonRenoire {
