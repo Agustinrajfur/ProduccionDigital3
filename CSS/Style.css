@@ -19,6 +19,7 @@ body {
 .BannerCompleto{
   Margin-bottom: 3rem;
 }
+
 .HeroBanner {
   background-color: #F46666;
   height:62.3rem;
@@ -83,23 +84,10 @@ margin-bottom: 2rem;
   justify-content: center;
 }
 
-
-.wap {
-    position: fixed;
-    bottom: 7rem;
-    right: 0;
-    margin:1rem;
-}
-
-.wap img {
-    height: 4rem;
-    width: auto;
-}
-
-
 .buscadorHome {
     background-color: #F46666;
 }
+
 .footerHome {
     background-color: #E8483E ;
 }
@@ -146,11 +134,10 @@ margin-bottom: 2rem;
     font-size: 1.5rem;
     }
 
+
 .card {
     bottom: 0.25rem;
 }
-
-
 
 .contacto {
 
@@ -166,12 +153,7 @@ margin-bottom: 2rem;
     text-transform: none;
   }
   
-  button, input, select, textarea {
-    color: #5A5A5A;
-    font: inherit;
-    margin: 0;
-  }
-  
+ 
   input {
     line-height: normal;
   }
@@ -229,7 +211,7 @@ margin-bottom: 2rem;
       padding: 0 0 0.875em 0;
   }
   
-  .name {
+  .Nombre {
       float: left;
       width: 45%;
   }
@@ -238,7 +220,7 @@ margin-bottom: 2rem;
     width: 100%;
   }
   
-  .telephone {
+  .Tel {
     width: 100%;
   }
   
@@ -302,9 +284,9 @@ margin-bottom: 2rem;
 
 }
 .obras {
-  height: 200px;
-  width: 300px;
-  margin: 20px;
+  height: 12.5rem;
+  width: 18.75rem;
+  margin: 1.25rem;
   overflow: hidden;
 }
 
@@ -325,35 +307,6 @@ margin-bottom: 2rem;
   transition: all 0.2s ease;
 }
 
-
-.Galería {
-  display: flex;
-  width: calc(80% - 2rem);
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-.Galería:is(:hover, :focus-within) .imagen {
-  opacity: calc(0.1 + (var(--active-lerp, 0) * 0.9));
-  filter: grayscale(calc(1 - var(--active-lerp, 0)));
-}
-
-:root {
-  --lerp-0: 1;
-  --lerp-1: 0.5787037;
-  --lerp-2: 0.2962963;
-  --lerp-3: 0.125;
-  --lerp-4: 0.037037;
-  --lerp-5: 0.0046296;
-  --lerp-6: 0;
-}
-
-
-.ObraEntera {
-  outline-offset: 4px;
-}
-
 .footerObras {
     background-color: #D8C45E;
 }
@@ -371,18 +324,15 @@ margin-bottom: 2rem;
  padding-bottom: 1.5rem;
  font-family: 'raleway';
  margin-top: 1rem;
-width: 100%;
+ width: 100%;
  opacity: .4;
  border-radius: 0;
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  display: inline-block;
-  font-weight: bold;
+ text-align: left;
+ text-decoration: none;
+ color: black;
+ display: inline-block;
+ font-weight: bold;
 }
-
-
-
 
 .MenuArtistas {
   background-image: url("../Fotos/Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg");
@@ -402,8 +352,6 @@ width: 100%;
   position: relative;
   z-index: 9000;
   text-align: left;
-  text-decoration: none;
-  color: black;
   display: inline-block;
 }
 
@@ -430,8 +378,8 @@ width: 100%;
 }
 
 .imagenMonet {
-width: 60vh;
-margin-top: 2rem;
+  width: 60vh;
+  margin-top: 2rem;
 }
 
 .ObraDeFondo {
@@ -453,14 +401,13 @@ margin-top: 2rem;
   font-family: 'raleway';
   text-align: left;
   margin-left: 1rem;
-  text-align: left;
 }
 
 .TextoBio {
   font-family: 'raleway';
   font-size: 1.1rem;
   margin-left: 1rem;
-  text-align: left;
+  text-align: justify;
   font-weight: light;
 }
 
@@ -473,10 +420,10 @@ margin-top: 2rem;
 }
 .CallToActionFotoYBoton {
   background-image: url("../Fotos/Puente.jpg");
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
   margin-top: 3rem;
- height: 20rem;
+  height: 20rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -492,8 +439,8 @@ margin-top: 2rem;
 
 .CallToActionFotoYBotonManet {
   background-image: url("../Fotos/Mallarme.jpg");
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
   margin-top: 3rem;
   height: 20rem;
   background-attachment: fixed;
@@ -512,8 +459,8 @@ margin-top: 2rem;
 
 .CallToActionFotoYBotonVincent {
   background-image: url("../Fotos/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg");
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
   margin-top: 3rem;
   height: 20rem;
   background-attachment: fixed;
@@ -532,8 +479,8 @@ margin-top: 2rem;
 
 .CallToActionFotoYBotonDegas {
   background-image: url("../Fotos/Ballet.jpg");
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
   margin-top: 3rem;
   height: 20rem;
   background-attachment: fixed;
@@ -551,8 +498,8 @@ margin-top: 2rem;
 
 .CallToActionFotoYBotonRenoire {
   background-image: url("../Fotos/Bal\ du\ moulin.jpg");
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
   margin-top: 3rem;
   height: 20rem;
   background-attachment: fixed;
@@ -579,14 +526,6 @@ margin-top: 2rem;
   opacity: 1;
   justify-content: center;
   color: white;
-  font-size: 1.8rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
- 
 }
 
 
@@ -601,7 +540,7 @@ margin-top: 2rem;
   background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Fotos/Gustave_Caillebotte_-_Paris_Street;_Rainy_Day_-_Google_Art_Project.jpg");
   padding-top: 5.6rem;
   padding-bottom: 5.6rem;
-  min-height: 31.25;
+  min-height: 31.25rem;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -628,9 +567,6 @@ margin-top: 2rem;
 
 .imagenNadar {
   padding-top: 4rem;
-  margin-right: 0;
-  padding-right: 0%;
-  right: 0;
 }
 
 .parrafoB {
@@ -675,38 +611,36 @@ margin-top: 2rem;
 
 /*Inicio footer*/
 footer {
-    background-color: #7542CA;
-    display: flex;
+  background-color: #7542CA;
+  display: flex;
 	width: 100%;;
 	justify-content: space-between;
-	
 	height: 7.5rem;
  	box-sizing: border-box;
  	
 }
 
 footer img{
-    width: 3rem;
-    height: 3rem;
-    margin-left: 0.5rem;
-    padding-top: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .redes {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .info--extra {
-    text-align: end;
-    font-family: 'raleway';
-    font-weight: 10;
-    font-size: 1rem;
-    color: white;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
+  text-align: end;
+  font-family: 'raleway';
+  font-weight: lighter;
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
 }
-
 /*Final footer*/
 
 /*Inicio arreglo contacto*/
@@ -752,37 +686,9 @@ footer img{
 /*Final arreglo contacto*/
 
 @media (min-width: 416px) {
-/*Inicio arreglo home*/
-.dato--1 {
-    padding-right: 1rem;
-    margin-bottom: 0;
-}
-/*Final arreglo home*/
-
-.dato--2 {
-    padding-right: 1rem;
-    margin-bottom: 0;
-}
-
-
 /*Inicio arreglo footer*/
-
 .info--extra {
     padding-right:2rem;
  }
-
-/*Fin arreglo footer*/
+ /*Fin arreglo footer*/
 }
-
-
-/*Inicio arreglo Home*/
-
-    .boton {
-        font-size: 1.75rem;
-    }
-
-/*Final arreglo Home*/
-
-
-
-
